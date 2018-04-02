@@ -1,0 +1,257 @@
+body{
+	background: #eee;
+	color: #666;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+/* 认筹开始 */
+#top_wrap{
+	background: #fff;
+	margin-bottom: 8px;
+}
+.top_state{
+	/* height: 18px; */
+}
+.top{
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 18px;
+	position:relative;
+}
+.top_left a{
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.top_left{
+	/* float: left; */
+	margin-left: 13px;
+	background: url(../../../../file/finshare/mo/image/back.png) 0 10px no-repeat;
+	background-size: 8px 16px;
+	position:absolute;
+	top:2px;
+}
+/* 认筹结束 */
+
+/* 进度条开始 */
+.progress_h{
+	padding: 0 13px 13px;
+	margin-bottom:8px;
+	background:#fff;
+}
+.pro_item{
+	height: 32px;
+	position: relative;
+}
+.pro_item em,.pro_item i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 18px;
+}
+.progress_bar{
+	margin: 0 auto;
+	overflow: hidden;
+	/* padding: 0 40px; */
+}
+.progress_bar li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 18px;
+}
+.progress_bar li span{
+	display: block;
+/* 	line-height: 40px; */
+	background-size: 13px 13px;
+}
+/* 进度条结束 */
+
+/* 认筹项目开始 */
+.plan_item{
+	background: #fff;
+	margin-bottom: 8px;
+	font-size: 12px;
+}
+.plan_item h2{
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 13px;
+}
+.detail{
+	text-align:center;
+	padding:13px 0;
+}
+.detail li{
+	/* height: 28px; */
+	line-height: 28px;
+	/* border-bottom: 1px solid #eee; */
+	padding: 0 13px;
+}
+.detail li i{
+	/* float: left; */
+	color:#999;
+}
+.detail li b{
+	color: #f74a3d;
+	font-weight: 700;
+	font-size:18px;
+}
+.detail li span{
+	/* float: right; */
+}
+/* 认筹项目结束 */
+
+/* 确认部分开始 */
+.confirm{
+	width: 100%;
+	/* position: absolute;
+	bottom: 20px; */
+	line-height: 40px;
+	min-width: 320px;
+	max-width: 640px;
+	overflow:hidden;
+	padding-bottom: 13px;
+	/* text-align:center; */
+}
+.confirm .submit_btn{
+	width: 45%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 16px;
+}
+.confirm .revoke{
+	/* float: left; */
+	border: 1px solid #f74a3d;
+	color: #f74a3d;
+	margin-left: 15px;
+	background:#fff;
+	/* margin:0 auto; */
+}
+.confirm .pay{
+	float: right;
+	background: #f74a3d;
+	margin-right: 15px;
+}
+/* 确认部分结束 */
+
+/* 短信提醒开始 */
+.remind{
+	background:#fff;
+	padding:13px;
+	color:#999;
+	line-height:20px;
+	font-size:13px;
+}
+.remind p{
+	font-size:12px;
+	color:#999;
+	line-height:20px;
+	z-index:11;
+}
+.remind b{
+	color:#f74a3d;font-size: 18px;
+}
+.remind span{
+	color:#333;
+}
+.remind a{
+	display:block;
+	font-size: 14px;
+	text-align:center;
+	color:#f74a3d;
+}
+.remind strong{
+	display:inline-block;
+	width:25%;
+	color:#666;
+}
+.remind .button{
+	display:block;
+	width:100%;
+	height:40px;
+	border-radius:5px;
+	margin:13px auto;
+	background:#f74a3d;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	font-size: 16px;
+}
+.remind dl{
+	overflow:hidden;
+	padding:5px;
+}
+.remind dt{
+	float:left;
+	width:70px;
+	font-weight:bold;
+}
+.remind dd{
+	float:left;
+	width:75%;
+}
+.more p{
+	margin-bottom:5px 0;
+}
+.more a{
+	color:#f74a3d;
+}
+.more{
+	text-align:left;
+	padding:5px 13px;
+	font-size: 14px;
+    color: #bbb;
+}
+/* 短信提醒结束 */
+
+/* 撤销申请提示 */
+#cancel_alert{
+	text-align:center;
+	background:#fff;
+	padding:20px;
+	width:70%;
+	font-size:14px;
+	line-height:24px;
+	border-radius:5px;
+	position:fixed;
+	bottom:50%;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:tranxlateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	display:none;
+	z-index:2;
+}
+#cancel_alert a{
+	color:#f74a3d;
+}
+.bg_xy{
+	width:100%;
+	height:6000px;
+	background:url(../../../../file/finshare/mo/image/mask.png);
+	position: fixed;
+	top: -44px;
+	max-width:640px;
+	overflow:hidden;
+	display:none;
+}
+
+
+

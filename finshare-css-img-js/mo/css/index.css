@@ -1,0 +1,677 @@
+@charset "utf-8";
+
+body{
+	background: #eee;
+	color: #666;
+	max-width:640px;
+	min-width:320px;
+	margin:0 auto;
+	font-size:14px;
+}
+h2{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+	color: #333;
+	font-size:16px;
+}
+.footer_l,.footer_r{
+	position: relative;
+	height: 27px;
+	line-height: 50px;
+	font-size:10px;
+	text-align:center;
+}
+/* 顶部开始 */
+#top_wrap{
+	background: #fff;
+	margin-bottom: 8px;
+}
+.top_state{
+	/* height: 18px; */
+}
+.top{
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 18px;
+	font-weight:bold;
+	position:relative;
+}
+.top_left a{
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.top_left{
+	width: 36px;
+	height: 36px;
+	/* margin-left: 13px; */
+	background: url(../../../../file/finshare/mo/image/refresh.png) 13px no-repeat;
+	background-size: 16px 16px;
+	position:absolute;
+	left:0px;
+	top:1px;
+}
+/* .top_left:hover{
+	background: url(../../../../file/finshare/mo/image/back2.png) 0 30px no-repeat;
+	background-size: 17px 16px;
+} */
+.top_right{
+	width: 36px;
+	height: 36px;
+	/* float: right; */
+	background: url(../../../../file/finshare/mo/image/collect.png) 13px no-repeat;
+	background-size: 17px 16px;
+	position:absolute;
+	right:8px;
+	top:1px;
+}
+.collected{
+	background: url(../../../../file/finshare/mo/image/collect2.png) 13px no-repeat;
+	background-size: 17px 16px;
+}
+.banner a{
+	display:block;
+	font-size: 0px;
+}
+/* 顶部结束 */
+
+/* 项目简称开始 */
+.progress{
+	background: #fff;
+	margin-bottom: 8px;
+}
+.progress h2{
+	text-align: left;
+	padding:0 13px;
+}
+.pro{
+	padding:0 13px;
+}
+.pro p{
+	text-align:center;
+	color:#bcbcbc;
+	padding-bottom:10px;
+}
+.pro_top{
+	text-align: center;
+	line-height:22px;
+	padding:12px 0 0 0;
+	font-size: 16px;
+	overflow:hidden;
+}
+.pro_item{
+	height: 70px;
+	position: relative;
+}
+.pro_item strong{
+	color:#f74a3d;
+}
+.pro_item i{
+	display: block;
+	padding-left: 34px;
+	line-height: 30px;
+	position: absolute;
+	left: 0;
+	background: url(../../../../file/finshare/mo/image/confess_top.png) 10px 14px no-repeat;
+	background-size: 21px 11px;
+	font-size: 12px;
+	transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	-moz-transition-duration: 2s;
+	-o-transition-duration: 2s;
+}
+.pro_item em{
+	display: block;
+	width: 100%;
+	height: 16px;
+	border-radius: 8px;
+	background: #dddddd;
+	position: absolute;
+	left: 50%;
+	top: 30px;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);	
+}
+.pro_item .bar i{
+	display: block;
+	width: 0%;
+	height: 16px;
+	text-align: center;
+	color: #fff;
+	line-height: 16px;
+	border-radius: 8px;
+	background: url(../image/progress_bar.png) -3px 0 no-repeat;
+	/* background-size: 100% 16px; */
+	padding-left:0;
+}
+.pro_item span{
+	padding-right: 24px;
+	line-height: 42px;
+	background: url(../../../../file/finshare/mo/image/confess_bottom.png) right 13px no-repeat;
+	background-size: 21px 10px;
+	position: absolute;
+	right: 10px;
+	top:36px;
+	font-size: 12px;
+}
+.pro_top li{
+	height:28px;
+	line-height:28px;
+	float: left;
+	border-radius:5px;
+	border:1px solid #f74a3d;
+	margin:0 10px 10px 0;
+	font-size:12px;
+	color:#f74a3d;
+	padding:0 10px;
+}
+.pro_bottom{
+	text-align: center;
+	font-size: 14px;
+	overflow:hidden;
+	padding-bottom:15px;
+}
+.pro_bottom span{
+	color:#bcbcbc;
+	font-size:12px;
+}
+.pro_bottom li{
+	width: 32%;
+	border-right: 1px solid #f9f9f9;
+	float: left;
+}
+.pro_bottom li:last-child{
+	border:0;
+}
+.pro_bottom em{
+	display:block;
+	color:#999;
+	padding: 5px;
+	font-size:12px;
+}
+.pro_bottom i{
+	line-height: 30px;
+	display: block;
+	color: #f86a61;
+	height:30px;
+	font-weight:bold;
+}
+/* 项目简称结束 */
+
+/* 回报说明开始 */
+.repay{
+	width: 100%;
+	background: #fff;
+	margin: 7px 0;
+}
+.repayCon{
+	/* padding:0 13px; */
+	color: #666;
+	font-size:15px;
+}
+.repayCon li{
+	overflow: hidden;
+    line-height: 32px;
+    border-bottom:1px solid #eee;
+    padding-left:13px;
+}
+.repayCon strong{
+	float: left;
+    font-weight: 700;
+}
+.repayCon strong span{
+	font-weight: 400;
+}
+.repayCon i{
+	float:right;
+	color:#f74a3d;
+}
+.repayCon pre{
+	font-weight:400;
+	margin:-2px 0 10px 0;
+}
+/* 推荐说明 */
+.recommend{
+	background:#fff;
+	margin-bottom:8px;
+}
+.recommendCon{
+	padding:6px 13px;
+	line-height:24px;
+}
+.recommend span{}
+.recommend p{}
+/* 回报说明结束 */
+
+/* 项目文档开始 */
+.detail{
+	width: 100%;
+	background: #fff;
+}
+.detail ul{
+	/* padding-top: 8px; */
+}
+.detail a{
+	display:block;
+	height:42px;
+}
+.detail ul li{
+	height: 42px;
+	line-height: 42px;
+	border-bottom:1px solid #e4e4e4;
+	padding: 0 16px;
+}
+.detail ul li span{
+	float: left;
+	padding-left: 24px;
+	background: url(../../../../file/finshare/mo/image/icon4.png) no-repeat left center;
+	background-size: 18px 18px;
+}
+.detail ul li:nth-child(1) span{
+	background: url(../../../../file/finshare/mo/image/icon1.png) no-repeat left center;
+	background-size: 18px 18px;
+}
+.detail ul li:nth-child(2) span{
+	background: url(../../../../file/finshare/mo/image/icon2.png) no-repeat left center;
+	background-size: 18px 18px;
+}
+.detail ul li:nth-child(3) span{
+	background: url(../../../../file/finshare/mo/image/icon3.png) no-repeat left center;
+	background-size: 18px 18px;
+}
+.detail ul li i{
+	float: right;
+	display:block;
+	width:7px;
+	height:42px;
+	background:url(../../../../file/finshare/mo/image/detail_enter.png) 0 14px no-repeat;
+	background-size:7px 13px;
+}
+.join{
+	background:#fff;
+	text-align:center;
+	padding:40px 0;
+	line-height:24px;
+}
+.join strong{
+	color:#f74a3d;
+	font-size:16px;
+}
+.join p{
+	font-size:15px;
+}
+.join button{
+	display:block;
+	width:75%;
+	height:35px;
+	line-height:35px;
+	border-radius:5px;
+	background:#f74a3d;
+	color:#fff;
+	margin:20px auto 0;
+	font-size:16px;
+}
+/* 项目文档结束 */
+
+/* 项目介绍开始 */
+.project{
+	width: 100%;
+	background: #fff;
+	margin: 7px 0;
+	padding-bottom:8px;
+	color:#666;
+	/* padding:13px 0; */
+}
+.f_title,.f_content{
+	text-align: left;
+	line-height:30px;
+}
+.f_content {
+    background-color: #FFFFFF;
+    color: #666;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0px;
+    padding: 0 10px;
+    text-align: left;
+}
+.f_title {
+    font-size: 15px;
+    width: 100%;
+    line-height: 40px;
+    text-indent:10px;
+}
+.f_time{
+	padding:12px;
+	line-height:28px;
+	color: #f74a3d;
+}
+hr {
+    height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    -o-box-sizing:content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.f_title b,.f_title strong {
+	font-weight: 700;
+}
+/* 项目介绍结束 */
+
+/* 接力轨迹开始 */
+.trail{
+	width: 100%;
+	background: #fff;
+	margin-bottom: 7px;	
+}
+.trail h2{
+	position:relative;
+}
+.trail h2 i{
+	position:absolute;
+	width:15px;
+	height:40px;
+	background:url(../../../../file/finshare/mo/image/down.png) right 14px no-repeat;
+	background-size:15px 12px;
+}
+.trail_wrap{
+	padding:16px 0 0 13px;
+	display:none;
+}
+.timer{
+	/* display: inline-block; */
+	float: left;
+	min-width: 60px;
+	color: #2dc6ef;
+	background: url(../../../../file/finshare/mo/image/trial_trangle.png) 40px center no-repeat;
+	position: relative;
+}
+.timer i{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(../../../../file/finshare/mo/image/trail_clock.jpg) 0 0 no-repeat;
+	background-size: 20px 20px;
+	position: absolute;
+	top: -10px;
+	left: 107px;
+}
+.timer1 i{
+	top: -10px;
+	z-index: 2;
+} 
+.trail_progress{
+	display: inline-block;
+	margin: 10px 0;
+}
+.trail_progress li{
+	position: relative;
+	line-height: 34px;
+}
+.trail_progress b{
+	width: 8px;
+	height: 8px;
+	background: url(../../../../file/finshare/mo/image/trail_time_dot.png) center no-repeat;
+	background-size: 8px 8px;
+	position: absolute;
+    top: 12px;
+    left: 52px;
+}
+.trail_progress i{
+	display: inline-block;
+	min-width: 56px;
+	border-right: 1px solid #1a9e0d;
+	color: #1a9e0d;
+}
+.trail_progress span{
+	display: inline-block;
+	margin-left: 8px;
+}
+/* 接力轨迹结束 */
+
+/* 联系我们开始 */
+.contact{
+	width: 100%;
+	background: #fff;
+	margin:8px 0;
+}
+.contact a{
+	display:block;
+	/* padding: 10px 0 10px 13px; */
+	color:#666;
+	font-size:14px;
+}
+.contact .phone{
+	padding: 10px 0 0px 12px; 
+}
+.contact .item{
+	display:block;
+	text-align:center;	
+	color:#f74a3d;
+	padding-bottom:10px;
+}
+.contact hr{
+	margin:0;
+	margin-bottom:10px;
+}
+.contact .phone a,.contact .email{
+	font-size: 0;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	padding-left: 24px;
+	font-size: 12px;
+}
+.contact .phone a:nth-child(1){
+	background: url(../../../../file/finshare/mo/image/contact_icon1.png) no-repeat left center;
+	background-size: 18px 18px;
+}
+.contact .phone a:nth-child(2){
+	background: url(../../../../file/finshare/mo/image/contact_icon2.png) no-repeat left center;
+	background-size: 18px 18px;
+}
+.contact .phone a:nth-child(3){
+	background: url(../../../../file/finshare/mo/image/contact_icon3.png) no-repeat left center;
+	background-size: 18px 18px;
+}
+.contact .email{
+	margin-left:12px;
+	background: url(../../../../file/finshare/mo/image/contact_icon4.png) no-repeat left center;
+	background-size: 18px 18px;
+	/* padding: 10px 0 10px 24px; */
+	/* border-bottom:1px solid #eee; */
+}
+.contact .phone a{
+	width: 25%;
+}
+/* 联系我们结束 */
+
+/* 底部导航开始 */
+.footer{
+	width: 100%;
+	/* height: 24px; */
+	background: #fff;
+	padding: 9px 0;
+}
+.footer_l{
+	float: left;
+	margin-left: 13px;
+	width: 38px;
+	height: 34px;	
+	background: url(../../../../file/finshare/mo/image/discuss.png) no-repeat 10px 1px;
+	background-size: 18px 16px;
+}
+.footer_r{
+	float: right;
+	margin-right: 13px;
+	width: 36px;
+	height: 36px;
+	background: url(../../../../file/finshare/mo/image/share.png) no-repeat 10px 1px;
+	background-size: 16px 16px;
+	position: relative;
+    z-index: 9;
+}
+.footer a{
+	margin: 0 auto;
+	display: block;
+	border-radius: 5px;
+	background: #f74a3d;
+	width: 60%;
+	height: 26px;
+	color: #fff;
+}
+.bg_xy{
+	width:100%;
+	height:6000px;
+	background:url(../image/mask.png);
+	position: fixed;
+	top: -44px;
+	max-width:640px;
+	overflow:hidden;
+	display:none;
+    z-index: 20;
+}
+
+
+.congress{
+	position: relative;
+}
+.footer button{
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    background: #f74a3d;
+    width: 68%;
+    height: 35px;
+	line-height:35px;
+    color: #fff;
+	font-size:16px;
+}
+.congress .login{
+	width: 70%;
+	max-width:580px;
+	min-width:249px;
+	/* height: 405px; */
+	background: #f9f9f9;
+	position: fixed;
+	top: 50%;
+	z-index: 11;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	box-shadow: 2px 1px 6px #999;
+	text-align: center;
+	padding: 22px 13px;
+	display: none;
+	z-index:22;
+}
+.login i{
+	width: 20px;
+	height: 20px;
+	background: url(../../../../file/finshare/mo/image/close.png) 0 0 no-repeat;
+	background-size: 20px 20px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.login p{
+	color: #b6b6b6;
+	font-size: 12px;
+}
+.login_info{
+	margin-bottom: 40px;
+}
+.login img{
+	width: 40%;
+	margin: 50px 0 40px 0;
+}
+.login_info p{
+	color: #5d5d5d;
+	margin-bottom: 6px;
+	font-size: 14px;
+}
+.login a{
+	margin-bottom: 10px;
+	line-height: 26px;
+}
+.login .button {
+    border: 1px solid #f74a3d;
+    margin: 20px auto 0;
+    display: block;
+    border-radius: 5px;
+    width: 60%;
+    height: 26px;
+    line-height: 26px;
+    font-size: 13px;
+    z-index:11;
+    background:#fff;
+    color:#f74a3d;
+}
+.shareTip{
+    position: fixed;
+    width: 100%;
+    max-width: 640px;
+    height: 100%;
+    top: 0;
+    z-index: 10001;
+    background-image: url('../../../../file/finshare/mo/image/shareImg.png');
+    background-position: right 0;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.73);
+    display: none;
+}
+/* 底部导航结束 */
+
+/* 固定导航开始 */
+.fix_nav{
+	width: 22px;
+	height: 78px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	display:none;
+}
+/* 固定导航结束 */
+
+/* alert */
+#alertMain{
+	width:80px;
+	height:40px;
+	line-height:40px;
+    background:url('../../../../file/finshare/mo/image/mask.png');
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    box-shadow: 2px 1px 6px #999;
+    text-align: center;
+    padding: 10px 5px;
+    z-index: 99;
+    color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+

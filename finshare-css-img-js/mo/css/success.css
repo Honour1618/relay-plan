@@ -1,0 +1,144 @@
+body{
+	background: #eee;
+	color: #666;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+/* 认筹开始 */
+#top_wrap{
+	background: #fff;
+	margin-bottom: 8px;
+}
+.top_state{
+	/* height: 18px; */
+}
+.top{
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 18px;
+	position:relative;
+}
+.top_left a{
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.top_left{
+	position:absolute;
+	top:1px;
+	margin-left: 13px;
+	background: url(../../../../file/finshare/mo/image/back.png) 0 10px no-repeat;
+	background-size: 8px 16px;
+}
+/* 认筹结束 */
+
+/* 进度条开始 */
+.progress_h{
+	padding: 0 13px 13px;
+	/* margin-bottom:8px; */
+	background:#fff;
+    border-bottom: 8px solid #eee;
+}
+.pro_item{
+	height: 32px;
+	position: relative;
+}
+.pro_item em,.pro_item i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 18px;
+}
+.progress_bar{
+	margin: 0 auto;
+	overflow: hidden;
+	/* padding: 0 40px; */
+}
+.progress_bar li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 18px;
+}
+.progress_bar li span{
+	display: block;
+/* 	line-height: 40px; */
+	background-size: 13px 13px;
+}
+/* 进度条结束 */
+
+/* 认筹项目开始 */
+.plan_item{
+	background: #fff;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+.plan_item h2{
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	color: #333;
+	font-weight: normal;
+	padding: 0 13px;
+}
+.plan_con{
+	text-align: center;
+}
+.plan_con strong{
+	color:#f74a3d;
+}
+.plan_con img{
+	width: 96px;
+	height: 76px;
+	margin-top: 26px;
+}
+.plan_con p{
+	color: #666;
+	line-height: 24px;
+	padding: 20px 0;
+	font-size: 16px;
+	border-bottom: 1px solid #eee;
+}
+.plan_con span{
+	font-size:14px;
+	color: #999;
+}
+.plan_con a{
+	display:block;
+	text-align:center;
+	color:#f74a3d;
+	line-height:33px;
+	padding: 5px 0;
+}
+/* 认筹项目结束 */
+
+
+/* 确认部分开始 */
+.confirm .button{
+	width: 80%;
+	height: 42px;
+	position: absolute;
+	font-size: 16px;
+	border-radius: 5px;
+	line-height: 42px;
+	text-align: center;
+	background: #f74a3d;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px auto 0;
+	min-width: 320px;
+	max-width: 640px;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+/* 确认部分结束 */
